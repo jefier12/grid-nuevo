@@ -3,10 +3,11 @@
 .grid-areas{
   display: grid;
   grid-template-columns: 200px 1fr;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 60px 1fr 90px;
   grid-template-areas: 
   'header  header'
-  'sidebar  content';
+  'sidebar  content'
+  'footer footer';
 }
 .header{
   grid-area: header;

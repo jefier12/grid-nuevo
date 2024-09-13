@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.youtube{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-areas: 
+  'headers  headers'
+  'sidebars  contents';
+}
+.headers{
+  grid-area: headers;
+  background-color: brown;
+}
+.sidebars{
+  grid-area: sidebars;
+  background-color: steelblue;
+}
+.contents{
+  grid-area: contents;
+  background-color: purple;
+}
